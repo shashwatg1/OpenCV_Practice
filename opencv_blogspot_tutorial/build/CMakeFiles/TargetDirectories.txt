@@ -1,0 +1,17 @@
+/home/shashwat/OpenCVPrac/opencv_blogspot_tutorial/build/CMakeFiles/AddTrackbar.dir
+/home/shashwat/OpenCVPrac/opencv_blogspot_tutorial/build/CMakeFiles/ChangeBrightness.dir
+/home/shashwat/OpenCVPrac/opencv_blogspot_tutorial/build/CMakeFiles/SmoothBlur.dir
+/home/shashwat/OpenCVPrac/opencv_blogspot_tutorial/build/CMakeFiles/changeContrast.dir
+/home/shashwat/OpenCVPrac/opencv_blogspot_tutorial/build/CMakeFiles/colourDetection.dir
+/home/shashwat/OpenCVPrac/opencv_blogspot_tutorial/build/CMakeFiles/fifth.dir
+/home/shashwat/OpenCVPrac/opencv_blogspot_tutorial/build/CMakeFiles/first.dir
+/home/shashwat/OpenCVPrac/opencv_blogspot_tutorial/build/CMakeFiles/fourth.dir
+/home/shashwat/OpenCVPrac/opencv_blogspot_tutorial/build/CMakeFiles/histogramEqualization.dir
+/home/shashwat/OpenCVPrac/opencv_blogspot_tutorial/build/CMakeFiles/mouseEvents.dir
+/home/shashwat/OpenCVPrac/opencv_blogspot_tutorial/build/CMakeFiles/objectTracking.dir
+/home/shashwat/OpenCVPrac/opencv_blogspot_tutorial/build/CMakeFiles/rotate.dir
+/home/shashwat/OpenCVPrac/opencv_blogspot_tutorial/build/CMakeFiles/second.dir
+/home/shashwat/OpenCVPrac/opencv_blogspot_tutorial/build/CMakeFiles/shapeDetection.dir
+/home/shashwat/OpenCVPrac/opencv_blogspot_tutorial/build/CMakeFiles/shapeDetection2.dir
+/home/shashwat/OpenCVPrac/opencv_blogspot_tutorial/build/CMakeFiles/shapeDetectionVideo.dir
+/home/shashwat/OpenCVPrac/opencv_blogspot_tutorial/build/CMakeFiles/third.dir

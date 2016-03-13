@@ -1,0 +1,12 @@
+For single file
+
+ $ g++ -ggdb `pkg-config --cflags opencv` -o `basename opencvtest.cpp .cpp` opencvtest.cpp `pkg-config --libs opencv`
+ $ ./opencvtest
+ 
+For CMake File
+
+Go to build
+check if file name is present as an executable in the CMakeFile
+$ cmake ..
+$ make
+$ ./filename.cpp
