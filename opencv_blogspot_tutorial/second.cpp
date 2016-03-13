@@ -1,7 +1,7 @@
 //Capture Video from File
 #include "opencv2/highgui/highgui.hpp"
 #include <iostream>
-using namespace cv;
+using namespace cv; 
 using namespace std;
 int main(int argc, char* argv[])
 {
