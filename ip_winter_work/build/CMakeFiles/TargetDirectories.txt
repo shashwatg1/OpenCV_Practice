@@ -1,8 +1,8 @@
-/home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles/compiled_eigth.dir
-/home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles/compiled_fifth.dir
-/home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles/compiled_first.dir
-/home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles/compiled_fourth.dir
-/home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles/compiled_second.dir
-/home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles/compiled_seventh.dir
-/home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles/compiled_sixth.dir
-/home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles/compiled_third.dir
+/home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles/eigth.dir
+/home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles/fifth.dir
+/home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles/first.dir
+/home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles/fourth.dir
+/home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles/second.dir
+/home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles/seventh.dir
+/home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles/sixth.dir
+/home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles/third.dir

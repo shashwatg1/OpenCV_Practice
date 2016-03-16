@@ -1,14 +1,15 @@
 #include "opencv2/highgui/highgui.hpp"
 #include <iostream>
 #include <typeinfo>
-#include "opencv/cv.h" 
+#include "opencv/cv.h"
 using namespace cv;
 using namespace std;
-//Conversion to grayscale
-//There are Three methods
+//Conversion to grayscale, There are Three methods
 int main(int argc, char* argv[])
 {
-    Mat image = imread("image.jpg",1);//see this is colored
+    Mat image = imread("/home/shashwat/OpenCVPrac/ip_winter_work/image.jpg",1);//see this is colored
+    Mat grayscale;
+    cvtColor(image, grayscale, CV_BGR2GRAY);
     Mat converted_light(image.rows,image.cols,CV_8UC1);
     Mat converted_average(image.rows,image.cols,CV_8UC1);
     Mat converted_luminosity(image.rows,image.cols,CV_8UC1);
@@ -17,29 +18,21 @@ int main(int argc, char* argv[])
     {
         for(int j=0;j<image.cols;j++)
         {
-            converted_light.at<uchar>(i,j) = (max(image.at<Vec3b>(i,j)[0],
-                                                  max(image.at<Vec3b>(i,j)[1],
-                                                  image.at<Vec3b>(i,j)[2]))
-                                                        +
-                                             min(image.at<Vec3b>(i,j)[0],
-                                                 min(image.at<Vec3b>(i,j)[1],
-                                                 image.at<Vec3b>(i,j)[2]))
-                                             )/2;
-
+            converted_light.at<uchar>(i,j) = ( max(image.at<Vec3b>(i,j)[0],
+                                                  max(image.at<Vec3b>(i,j)[1],image.at<Vec3b>(i,j)[2]))
+                                             + min(image.at<Vec3b>(i,j)[0],
+                                                  min(image.at<Vec3b>(i,j)[1],image.at<Vec3b>(i,j)[2])))/2;
             converted_average.at<uchar>(i,j) = (image.at<Vec3b>(i,j)[0]+image.at<Vec3b>(i,j)[1]
                                                 + image.at<Vec3b>(i,j)[2])/3;
-
-            converted_luminosity.at<uchar>(i,j) = 0.56*image.at<Vec3b>(i,j)[1] + 0.11*image.at<Vec3b>(i,j)[2]
+            converted_luminosity.at<uchar>(i,j) = 0.56*image.at<Vec3b>(i,j)[1]+0.11*image.at<Vec3b>(i,j)[2]
                                                 + 0.33*image.at<Vec3b>(i,j)[0];
-            //Human eyes are more sensitive to green than other colors, so green is weighted
-            //most heavily in this approach.    
-            // = .56 G + 0.33 R + 0.11 B 
-        											        }
-        
+            //Human eyes are more sensitive to green than other colors, so green is weighted most heavily
+            //we use weights as 0.56 G + 0.33 R + 0.11 B
+        }
     }
     imshow("converted light",converted_light);
     imshow("converted average",converted_light);
     imshow("converted luminosity",converted_luminosity);
+    imshow("converted grayscale actual",grayscale);
     waitKey(0);
-
 }

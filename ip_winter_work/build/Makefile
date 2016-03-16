@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shashwat/OpenCVPrac/image_processing_tutorial
+CMAKE_SOURCE_DIR = /home/shashwat/OpenCVPrac/ip_winter_work
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shashwat/OpenCVPrac/image_processing_tutorial/build
+CMAKE_BINARY_DIR = /home/shashwat/OpenCVPrac/ip_winter_work/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,9 +69,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -99,115 +99,115 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named compiled_eigth
+# Target rules for targets named eigth
 
 # Build rule for target.
-compiled_eigth: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 compiled_eigth
-.PHONY : compiled_eigth
+eigth: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 eigth
+.PHONY : eigth
 
 # fast build rule for target.
-compiled_eigth/fast:
-	$(MAKE) -f CMakeFiles/compiled_eigth.dir/build.make CMakeFiles/compiled_eigth.dir/build
-.PHONY : compiled_eigth/fast
+eigth/fast:
+	$(MAKE) -f CMakeFiles/eigth.dir/build.make CMakeFiles/eigth.dir/build
+.PHONY : eigth/fast
 
 #=============================================================================
-# Target rules for targets named compiled_fifth
+# Target rules for targets named fifth
 
 # Build rule for target.
-compiled_fifth: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 compiled_fifth
-.PHONY : compiled_fifth
+fifth: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fifth
+.PHONY : fifth
 
 # fast build rule for target.
-compiled_fifth/fast:
-	$(MAKE) -f CMakeFiles/compiled_fifth.dir/build.make CMakeFiles/compiled_fifth.dir/build
-.PHONY : compiled_fifth/fast
+fifth/fast:
+	$(MAKE) -f CMakeFiles/fifth.dir/build.make CMakeFiles/fifth.dir/build
+.PHONY : fifth/fast
 
 #=============================================================================
-# Target rules for targets named compiled_first
+# Target rules for targets named first
 
 # Build rule for target.
-compiled_first: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 compiled_first
-.PHONY : compiled_first
+first: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 first
+.PHONY : first
 
 # fast build rule for target.
-compiled_first/fast:
-	$(MAKE) -f CMakeFiles/compiled_first.dir/build.make CMakeFiles/compiled_first.dir/build
-.PHONY : compiled_first/fast
+first/fast:
+	$(MAKE) -f CMakeFiles/first.dir/build.make CMakeFiles/first.dir/build
+.PHONY : first/fast
 
 #=============================================================================
-# Target rules for targets named compiled_fourth
+# Target rules for targets named fourth
 
 # Build rule for target.
-compiled_fourth: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 compiled_fourth
-.PHONY : compiled_fourth
+fourth: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fourth
+.PHONY : fourth
 
 # fast build rule for target.
-compiled_fourth/fast:
-	$(MAKE) -f CMakeFiles/compiled_fourth.dir/build.make CMakeFiles/compiled_fourth.dir/build
-.PHONY : compiled_fourth/fast
+fourth/fast:
+	$(MAKE) -f CMakeFiles/fourth.dir/build.make CMakeFiles/fourth.dir/build
+.PHONY : fourth/fast
 
 #=============================================================================
-# Target rules for targets named compiled_second
+# Target rules for targets named second
 
 # Build rule for target.
-compiled_second: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 compiled_second
-.PHONY : compiled_second
+second: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 second
+.PHONY : second
 
 # fast build rule for target.
-compiled_second/fast:
-	$(MAKE) -f CMakeFiles/compiled_second.dir/build.make CMakeFiles/compiled_second.dir/build
-.PHONY : compiled_second/fast
+second/fast:
+	$(MAKE) -f CMakeFiles/second.dir/build.make CMakeFiles/second.dir/build
+.PHONY : second/fast
 
 #=============================================================================
-# Target rules for targets named compiled_seventh
+# Target rules for targets named seventh
 
 # Build rule for target.
-compiled_seventh: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 compiled_seventh
-.PHONY : compiled_seventh
+seventh: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 seventh
+.PHONY : seventh
 
 # fast build rule for target.
-compiled_seventh/fast:
-	$(MAKE) -f CMakeFiles/compiled_seventh.dir/build.make CMakeFiles/compiled_seventh.dir/build
-.PHONY : compiled_seventh/fast
+seventh/fast:
+	$(MAKE) -f CMakeFiles/seventh.dir/build.make CMakeFiles/seventh.dir/build
+.PHONY : seventh/fast
 
 #=============================================================================
-# Target rules for targets named compiled_sixth
+# Target rules for targets named sixth
 
 # Build rule for target.
-compiled_sixth: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 compiled_sixth
-.PHONY : compiled_sixth
+sixth: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sixth
+.PHONY : sixth
 
 # fast build rule for target.
-compiled_sixth/fast:
-	$(MAKE) -f CMakeFiles/compiled_sixth.dir/build.make CMakeFiles/compiled_sixth.dir/build
-.PHONY : compiled_sixth/fast
+sixth/fast:
+	$(MAKE) -f CMakeFiles/sixth.dir/build.make CMakeFiles/sixth.dir/build
+.PHONY : sixth/fast
 
 #=============================================================================
-# Target rules for targets named compiled_third
+# Target rules for targets named third
 
 # Build rule for target.
-compiled_third: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 compiled_third
-.PHONY : compiled_third
+third: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 third
+.PHONY : third
 
 # fast build rule for target.
-compiled_third/fast:
-	$(MAKE) -f CMakeFiles/compiled_third.dir/build.make CMakeFiles/compiled_third.dir/build
-.PHONY : compiled_third/fast
+third/fast:
+	$(MAKE) -f CMakeFiles/third.dir/build.make CMakeFiles/third.dir/build
+.PHONY : third/fast
 
 eigth.o: eigth.cpp.o
 .PHONY : eigth.o
 
 # target to build an object file
 eigth.cpp.o:
-	$(MAKE) -f CMakeFiles/compiled_eigth.dir/build.make CMakeFiles/compiled_eigth.dir/eigth.cpp.o
+	$(MAKE) -f CMakeFiles/eigth.dir/build.make CMakeFiles/eigth.dir/eigth.cpp.o
 .PHONY : eigth.cpp.o
 
 eigth.i: eigth.cpp.i
@@ -215,7 +215,7 @@ eigth.i: eigth.cpp.i
 
 # target to preprocess a source file
 eigth.cpp.i:
-	$(MAKE) -f CMakeFiles/compiled_eigth.dir/build.make CMakeFiles/compiled_eigth.dir/eigth.cpp.i
+	$(MAKE) -f CMakeFiles/eigth.dir/build.make CMakeFiles/eigth.dir/eigth.cpp.i
 .PHONY : eigth.cpp.i
 
 eigth.s: eigth.cpp.s
@@ -223,7 +223,7 @@ eigth.s: eigth.cpp.s
 
 # target to generate assembly for a file
 eigth.cpp.s:
-	$(MAKE) -f CMakeFiles/compiled_eigth.dir/build.make CMakeFiles/compiled_eigth.dir/eigth.cpp.s
+	$(MAKE) -f CMakeFiles/eigth.dir/build.make CMakeFiles/eigth.dir/eigth.cpp.s
 .PHONY : eigth.cpp.s
 
 fifth.o: fifth.cpp.o
@@ -231,7 +231,7 @@ fifth.o: fifth.cpp.o
 
 # target to build an object file
 fifth.cpp.o:
-	$(MAKE) -f CMakeFiles/compiled_fifth.dir/build.make CMakeFiles/compiled_fifth.dir/fifth.cpp.o
+	$(MAKE) -f CMakeFiles/fifth.dir/build.make CMakeFiles/fifth.dir/fifth.cpp.o
 .PHONY : fifth.cpp.o
 
 fifth.i: fifth.cpp.i
@@ -239,7 +239,7 @@ fifth.i: fifth.cpp.i
 
 # target to preprocess a source file
 fifth.cpp.i:
-	$(MAKE) -f CMakeFiles/compiled_fifth.dir/build.make CMakeFiles/compiled_fifth.dir/fifth.cpp.i
+	$(MAKE) -f CMakeFiles/fifth.dir/build.make CMakeFiles/fifth.dir/fifth.cpp.i
 .PHONY : fifth.cpp.i
 
 fifth.s: fifth.cpp.s
@@ -247,7 +247,7 @@ fifth.s: fifth.cpp.s
 
 # target to generate assembly for a file
 fifth.cpp.s:
-	$(MAKE) -f CMakeFiles/compiled_fifth.dir/build.make CMakeFiles/compiled_fifth.dir/fifth.cpp.s
+	$(MAKE) -f CMakeFiles/fifth.dir/build.make CMakeFiles/fifth.dir/fifth.cpp.s
 .PHONY : fifth.cpp.s
 
 first.o: first.cpp.o
@@ -255,7 +255,7 @@ first.o: first.cpp.o
 
 # target to build an object file
 first.cpp.o:
-	$(MAKE) -f CMakeFiles/compiled_first.dir/build.make CMakeFiles/compiled_first.dir/first.cpp.o
+	$(MAKE) -f CMakeFiles/first.dir/build.make CMakeFiles/first.dir/first.cpp.o
 .PHONY : first.cpp.o
 
 first.i: first.cpp.i
@@ -263,7 +263,7 @@ first.i: first.cpp.i
 
 # target to preprocess a source file
 first.cpp.i:
-	$(MAKE) -f CMakeFiles/compiled_first.dir/build.make CMakeFiles/compiled_first.dir/first.cpp.i
+	$(MAKE) -f CMakeFiles/first.dir/build.make CMakeFiles/first.dir/first.cpp.i
 .PHONY : first.cpp.i
 
 first.s: first.cpp.s
@@ -271,7 +271,7 @@ first.s: first.cpp.s
 
 # target to generate assembly for a file
 first.cpp.s:
-	$(MAKE) -f CMakeFiles/compiled_first.dir/build.make CMakeFiles/compiled_first.dir/first.cpp.s
+	$(MAKE) -f CMakeFiles/first.dir/build.make CMakeFiles/first.dir/first.cpp.s
 .PHONY : first.cpp.s
 
 fourth.o: fourth.cpp.o
@@ -279,7 +279,7 @@ fourth.o: fourth.cpp.o
 
 # target to build an object file
 fourth.cpp.o:
-	$(MAKE) -f CMakeFiles/compiled_fourth.dir/build.make CMakeFiles/compiled_fourth.dir/fourth.cpp.o
+	$(MAKE) -f CMakeFiles/fourth.dir/build.make CMakeFiles/fourth.dir/fourth.cpp.o
 .PHONY : fourth.cpp.o
 
 fourth.i: fourth.cpp.i
@@ -287,7 +287,7 @@ fourth.i: fourth.cpp.i
 
 # target to preprocess a source file
 fourth.cpp.i:
-	$(MAKE) -f CMakeFiles/compiled_fourth.dir/build.make CMakeFiles/compiled_fourth.dir/fourth.cpp.i
+	$(MAKE) -f CMakeFiles/fourth.dir/build.make CMakeFiles/fourth.dir/fourth.cpp.i
 .PHONY : fourth.cpp.i
 
 fourth.s: fourth.cpp.s
@@ -295,7 +295,7 @@ fourth.s: fourth.cpp.s
 
 # target to generate assembly for a file
 fourth.cpp.s:
-	$(MAKE) -f CMakeFiles/compiled_fourth.dir/build.make CMakeFiles/compiled_fourth.dir/fourth.cpp.s
+	$(MAKE) -f CMakeFiles/fourth.dir/build.make CMakeFiles/fourth.dir/fourth.cpp.s
 .PHONY : fourth.cpp.s
 
 second.o: second.cpp.o
@@ -303,7 +303,7 @@ second.o: second.cpp.o
 
 # target to build an object file
 second.cpp.o:
-	$(MAKE) -f CMakeFiles/compiled_second.dir/build.make CMakeFiles/compiled_second.dir/second.cpp.o
+	$(MAKE) -f CMakeFiles/second.dir/build.make CMakeFiles/second.dir/second.cpp.o
 .PHONY : second.cpp.o
 
 second.i: second.cpp.i
@@ -311,7 +311,7 @@ second.i: second.cpp.i
 
 # target to preprocess a source file
 second.cpp.i:
-	$(MAKE) -f CMakeFiles/compiled_second.dir/build.make CMakeFiles/compiled_second.dir/second.cpp.i
+	$(MAKE) -f CMakeFiles/second.dir/build.make CMakeFiles/second.dir/second.cpp.i
 .PHONY : second.cpp.i
 
 second.s: second.cpp.s
@@ -319,7 +319,7 @@ second.s: second.cpp.s
 
 # target to generate assembly for a file
 second.cpp.s:
-	$(MAKE) -f CMakeFiles/compiled_second.dir/build.make CMakeFiles/compiled_second.dir/second.cpp.s
+	$(MAKE) -f CMakeFiles/second.dir/build.make CMakeFiles/second.dir/second.cpp.s
 .PHONY : second.cpp.s
 
 seventh.o: seventh.cpp.o
@@ -327,7 +327,7 @@ seventh.o: seventh.cpp.o
 
 # target to build an object file
 seventh.cpp.o:
-	$(MAKE) -f CMakeFiles/compiled_seventh.dir/build.make CMakeFiles/compiled_seventh.dir/seventh.cpp.o
+	$(MAKE) -f CMakeFiles/seventh.dir/build.make CMakeFiles/seventh.dir/seventh.cpp.o
 .PHONY : seventh.cpp.o
 
 seventh.i: seventh.cpp.i
@@ -335,7 +335,7 @@ seventh.i: seventh.cpp.i
 
 # target to preprocess a source file
 seventh.cpp.i:
-	$(MAKE) -f CMakeFiles/compiled_seventh.dir/build.make CMakeFiles/compiled_seventh.dir/seventh.cpp.i
+	$(MAKE) -f CMakeFiles/seventh.dir/build.make CMakeFiles/seventh.dir/seventh.cpp.i
 .PHONY : seventh.cpp.i
 
 seventh.s: seventh.cpp.s
@@ -343,7 +343,7 @@ seventh.s: seventh.cpp.s
 
 # target to generate assembly for a file
 seventh.cpp.s:
-	$(MAKE) -f CMakeFiles/compiled_seventh.dir/build.make CMakeFiles/compiled_seventh.dir/seventh.cpp.s
+	$(MAKE) -f CMakeFiles/seventh.dir/build.make CMakeFiles/seventh.dir/seventh.cpp.s
 .PHONY : seventh.cpp.s
 
 sixth.o: sixth.cpp.o
@@ -351,7 +351,7 @@ sixth.o: sixth.cpp.o
 
 # target to build an object file
 sixth.cpp.o:
-	$(MAKE) -f CMakeFiles/compiled_sixth.dir/build.make CMakeFiles/compiled_sixth.dir/sixth.cpp.o
+	$(MAKE) -f CMakeFiles/sixth.dir/build.make CMakeFiles/sixth.dir/sixth.cpp.o
 .PHONY : sixth.cpp.o
 
 sixth.i: sixth.cpp.i
@@ -359,7 +359,7 @@ sixth.i: sixth.cpp.i
 
 # target to preprocess a source file
 sixth.cpp.i:
-	$(MAKE) -f CMakeFiles/compiled_sixth.dir/build.make CMakeFiles/compiled_sixth.dir/sixth.cpp.i
+	$(MAKE) -f CMakeFiles/sixth.dir/build.make CMakeFiles/sixth.dir/sixth.cpp.i
 .PHONY : sixth.cpp.i
 
 sixth.s: sixth.cpp.s
@@ -367,7 +367,7 @@ sixth.s: sixth.cpp.s
 
 # target to generate assembly for a file
 sixth.cpp.s:
-	$(MAKE) -f CMakeFiles/compiled_sixth.dir/build.make CMakeFiles/compiled_sixth.dir/sixth.cpp.s
+	$(MAKE) -f CMakeFiles/sixth.dir/build.make CMakeFiles/sixth.dir/sixth.cpp.s
 .PHONY : sixth.cpp.s
 
 third.o: third.cpp.o
@@ -375,7 +375,7 @@ third.o: third.cpp.o
 
 # target to build an object file
 third.cpp.o:
-	$(MAKE) -f CMakeFiles/compiled_third.dir/build.make CMakeFiles/compiled_third.dir/third.cpp.o
+	$(MAKE) -f CMakeFiles/third.dir/build.make CMakeFiles/third.dir/third.cpp.o
 .PHONY : third.cpp.o
 
 third.i: third.cpp.i
@@ -383,7 +383,7 @@ third.i: third.cpp.i
 
 # target to preprocess a source file
 third.cpp.i:
-	$(MAKE) -f CMakeFiles/compiled_third.dir/build.make CMakeFiles/compiled_third.dir/third.cpp.i
+	$(MAKE) -f CMakeFiles/third.dir/build.make CMakeFiles/third.dir/third.cpp.i
 .PHONY : third.cpp.i
 
 third.s: third.cpp.s
@@ -391,7 +391,7 @@ third.s: third.cpp.s
 
 # target to generate assembly for a file
 third.cpp.s:
-	$(MAKE) -f CMakeFiles/compiled_third.dir/build.make CMakeFiles/compiled_third.dir/third.cpp.s
+	$(MAKE) -f CMakeFiles/third.dir/build.make CMakeFiles/third.dir/third.cpp.s
 .PHONY : third.cpp.s
 
 # Help Target
@@ -400,16 +400,16 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... compiled_eigth"
-	@echo "... compiled_fifth"
-	@echo "... compiled_first"
-	@echo "... compiled_fourth"
-	@echo "... compiled_second"
-	@echo "... compiled_seventh"
-	@echo "... compiled_sixth"
-	@echo "... compiled_third"
 	@echo "... edit_cache"
+	@echo "... eigth"
+	@echo "... fifth"
+	@echo "... first"
+	@echo "... fourth"
 	@echo "... rebuild_cache"
+	@echo "... second"
+	@echo "... seventh"
+	@echo "... sixth"
+	@echo "... third"
 	@echo "... eigth.o"
 	@echo "... eigth.i"
 	@echo "... eigth.s"

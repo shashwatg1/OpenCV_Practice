@@ -4,10 +4,9 @@
 #include "opencv/cv.h" 
 using namespace cv;
 using namespace std;
-
 int main(int argc, char* argv[])
 {
-    Mat grayscale = imread("image.jpg",0);//see this is grayscale
+    Mat grayscale = imread("/home/shashwat/OpenCVPrac/ip_winter_work/image.jpg",0);//see this is grayscale
     imshow("original image",grayscale);
     for(int i=0;i<grayscale.rows;i++)
     {
@@ -22,11 +21,9 @@ int main(int argc, char* argv[])
         	grayscale.at<uchar>(i,j) = 10 + (int)grayscale.at<uchar>(i,j);
         											//What if it is more than 255
         }
-        
     }
     imshow("modified image",grayscale);//something more brighter.Karma bitch!
     imwrite("new.jpg",grayscale);//hey this is for writing the image
     							//you can compress the image too.. Check the docs :)
     waitKey(0);
-
 }

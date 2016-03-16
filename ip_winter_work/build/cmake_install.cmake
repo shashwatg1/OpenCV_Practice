@@ -1,4 +1,4 @@
-# Install script for directory: /home/shashwat/OpenCVPrac/image_processing_tutorial
+# Install script for directory: /home/shashwat/OpenCVPrac/ip_winter_work
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/shashwat/OpenCVPrac/image_processing_tutorial/build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/shashwat/OpenCVPrac/ip_winter_work/build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/shashwat/OpenCVPrac/image_processing_tutorial/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/shashwat/OpenCVPrac/ip_winter_work/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

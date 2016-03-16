@@ -47,289 +47,289 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shashwat/OpenCVPrac/image_processing_tutorial
+CMAKE_SOURCE_DIR = /home/shashwat/OpenCVPrac/ip_winter_work
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shashwat/OpenCVPrac/image_processing_tutorial/build
+CMAKE_BINARY_DIR = /home/shashwat/OpenCVPrac/ip_winter_work/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/compiled_eigth.dir
+# Target rules for target CMakeFiles/eigth.dir
 
 # All Build rule for target.
-CMakeFiles/compiled_eigth.dir/all:
-	$(MAKE) -f CMakeFiles/compiled_eigth.dir/build.make CMakeFiles/compiled_eigth.dir/depend
-	$(MAKE) -f CMakeFiles/compiled_eigth.dir/build.make CMakeFiles/compiled_eigth.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles  1
-	@echo "Built target compiled_eigth"
-.PHONY : CMakeFiles/compiled_eigth.dir/all
+CMakeFiles/eigth.dir/all:
+	$(MAKE) -f CMakeFiles/eigth.dir/build.make CMakeFiles/eigth.dir/depend
+	$(MAKE) -f CMakeFiles/eigth.dir/build.make CMakeFiles/eigth.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles  1
+	@echo "Built target eigth"
+.PHONY : CMakeFiles/eigth.dir/all
 
 # Include target in all.
-all: CMakeFiles/compiled_eigth.dir/all
+all: CMakeFiles/eigth.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/compiled_eigth.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/compiled_eigth.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles 0
-.PHONY : CMakeFiles/compiled_eigth.dir/rule
+CMakeFiles/eigth.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/eigth.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles 0
+.PHONY : CMakeFiles/eigth.dir/rule
 
 # Convenience name for target.
-compiled_eigth: CMakeFiles/compiled_eigth.dir/rule
-.PHONY : compiled_eigth
+eigth: CMakeFiles/eigth.dir/rule
+.PHONY : eigth
 
 # clean rule for target.
-CMakeFiles/compiled_eigth.dir/clean:
-	$(MAKE) -f CMakeFiles/compiled_eigth.dir/build.make CMakeFiles/compiled_eigth.dir/clean
-.PHONY : CMakeFiles/compiled_eigth.dir/clean
+CMakeFiles/eigth.dir/clean:
+	$(MAKE) -f CMakeFiles/eigth.dir/build.make CMakeFiles/eigth.dir/clean
+.PHONY : CMakeFiles/eigth.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/compiled_eigth.dir/clean
+clean: CMakeFiles/eigth.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/compiled_fifth.dir
+# Target rules for target CMakeFiles/fifth.dir
 
 # All Build rule for target.
-CMakeFiles/compiled_fifth.dir/all:
-	$(MAKE) -f CMakeFiles/compiled_fifth.dir/build.make CMakeFiles/compiled_fifth.dir/depend
-	$(MAKE) -f CMakeFiles/compiled_fifth.dir/build.make CMakeFiles/compiled_fifth.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles  2
-	@echo "Built target compiled_fifth"
-.PHONY : CMakeFiles/compiled_fifth.dir/all
+CMakeFiles/fifth.dir/all:
+	$(MAKE) -f CMakeFiles/fifth.dir/build.make CMakeFiles/fifth.dir/depend
+	$(MAKE) -f CMakeFiles/fifth.dir/build.make CMakeFiles/fifth.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles  2
+	@echo "Built target fifth"
+.PHONY : CMakeFiles/fifth.dir/all
 
 # Include target in all.
-all: CMakeFiles/compiled_fifth.dir/all
+all: CMakeFiles/fifth.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/compiled_fifth.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/compiled_fifth.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles 0
-.PHONY : CMakeFiles/compiled_fifth.dir/rule
+CMakeFiles/fifth.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/fifth.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles 0
+.PHONY : CMakeFiles/fifth.dir/rule
 
 # Convenience name for target.
-compiled_fifth: CMakeFiles/compiled_fifth.dir/rule
-.PHONY : compiled_fifth
+fifth: CMakeFiles/fifth.dir/rule
+.PHONY : fifth
 
 # clean rule for target.
-CMakeFiles/compiled_fifth.dir/clean:
-	$(MAKE) -f CMakeFiles/compiled_fifth.dir/build.make CMakeFiles/compiled_fifth.dir/clean
-.PHONY : CMakeFiles/compiled_fifth.dir/clean
+CMakeFiles/fifth.dir/clean:
+	$(MAKE) -f CMakeFiles/fifth.dir/build.make CMakeFiles/fifth.dir/clean
+.PHONY : CMakeFiles/fifth.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/compiled_fifth.dir/clean
+clean: CMakeFiles/fifth.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/compiled_first.dir
+# Target rules for target CMakeFiles/first.dir
 
 # All Build rule for target.
-CMakeFiles/compiled_first.dir/all:
-	$(MAKE) -f CMakeFiles/compiled_first.dir/build.make CMakeFiles/compiled_first.dir/depend
-	$(MAKE) -f CMakeFiles/compiled_first.dir/build.make CMakeFiles/compiled_first.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles  3
-	@echo "Built target compiled_first"
-.PHONY : CMakeFiles/compiled_first.dir/all
+CMakeFiles/first.dir/all:
+	$(MAKE) -f CMakeFiles/first.dir/build.make CMakeFiles/first.dir/depend
+	$(MAKE) -f CMakeFiles/first.dir/build.make CMakeFiles/first.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles  3
+	@echo "Built target first"
+.PHONY : CMakeFiles/first.dir/all
 
 # Include target in all.
-all: CMakeFiles/compiled_first.dir/all
+all: CMakeFiles/first.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/compiled_first.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/compiled_first.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles 0
-.PHONY : CMakeFiles/compiled_first.dir/rule
+CMakeFiles/first.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/first.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles 0
+.PHONY : CMakeFiles/first.dir/rule
 
 # Convenience name for target.
-compiled_first: CMakeFiles/compiled_first.dir/rule
-.PHONY : compiled_first
+first: CMakeFiles/first.dir/rule
+.PHONY : first
 
 # clean rule for target.
-CMakeFiles/compiled_first.dir/clean:
-	$(MAKE) -f CMakeFiles/compiled_first.dir/build.make CMakeFiles/compiled_first.dir/clean
-.PHONY : CMakeFiles/compiled_first.dir/clean
+CMakeFiles/first.dir/clean:
+	$(MAKE) -f CMakeFiles/first.dir/build.make CMakeFiles/first.dir/clean
+.PHONY : CMakeFiles/first.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/compiled_first.dir/clean
+clean: CMakeFiles/first.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/compiled_fourth.dir
+# Target rules for target CMakeFiles/fourth.dir
 
 # All Build rule for target.
-CMakeFiles/compiled_fourth.dir/all:
-	$(MAKE) -f CMakeFiles/compiled_fourth.dir/build.make CMakeFiles/compiled_fourth.dir/depend
-	$(MAKE) -f CMakeFiles/compiled_fourth.dir/build.make CMakeFiles/compiled_fourth.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles  4
-	@echo "Built target compiled_fourth"
-.PHONY : CMakeFiles/compiled_fourth.dir/all
+CMakeFiles/fourth.dir/all:
+	$(MAKE) -f CMakeFiles/fourth.dir/build.make CMakeFiles/fourth.dir/depend
+	$(MAKE) -f CMakeFiles/fourth.dir/build.make CMakeFiles/fourth.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles  4
+	@echo "Built target fourth"
+.PHONY : CMakeFiles/fourth.dir/all
 
 # Include target in all.
-all: CMakeFiles/compiled_fourth.dir/all
+all: CMakeFiles/fourth.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/compiled_fourth.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/compiled_fourth.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles 0
-.PHONY : CMakeFiles/compiled_fourth.dir/rule
+CMakeFiles/fourth.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/fourth.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles 0
+.PHONY : CMakeFiles/fourth.dir/rule
 
 # Convenience name for target.
-compiled_fourth: CMakeFiles/compiled_fourth.dir/rule
-.PHONY : compiled_fourth
+fourth: CMakeFiles/fourth.dir/rule
+.PHONY : fourth
 
 # clean rule for target.
-CMakeFiles/compiled_fourth.dir/clean:
-	$(MAKE) -f CMakeFiles/compiled_fourth.dir/build.make CMakeFiles/compiled_fourth.dir/clean
-.PHONY : CMakeFiles/compiled_fourth.dir/clean
+CMakeFiles/fourth.dir/clean:
+	$(MAKE) -f CMakeFiles/fourth.dir/build.make CMakeFiles/fourth.dir/clean
+.PHONY : CMakeFiles/fourth.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/compiled_fourth.dir/clean
+clean: CMakeFiles/fourth.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/compiled_second.dir
+# Target rules for target CMakeFiles/second.dir
 
 # All Build rule for target.
-CMakeFiles/compiled_second.dir/all:
-	$(MAKE) -f CMakeFiles/compiled_second.dir/build.make CMakeFiles/compiled_second.dir/depend
-	$(MAKE) -f CMakeFiles/compiled_second.dir/build.make CMakeFiles/compiled_second.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles  5
-	@echo "Built target compiled_second"
-.PHONY : CMakeFiles/compiled_second.dir/all
+CMakeFiles/second.dir/all:
+	$(MAKE) -f CMakeFiles/second.dir/build.make CMakeFiles/second.dir/depend
+	$(MAKE) -f CMakeFiles/second.dir/build.make CMakeFiles/second.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles  5
+	@echo "Built target second"
+.PHONY : CMakeFiles/second.dir/all
 
 # Include target in all.
-all: CMakeFiles/compiled_second.dir/all
+all: CMakeFiles/second.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/compiled_second.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/compiled_second.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles 0
-.PHONY : CMakeFiles/compiled_second.dir/rule
+CMakeFiles/second.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/second.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles 0
+.PHONY : CMakeFiles/second.dir/rule
 
 # Convenience name for target.
-compiled_second: CMakeFiles/compiled_second.dir/rule
-.PHONY : compiled_second
+second: CMakeFiles/second.dir/rule
+.PHONY : second
 
 # clean rule for target.
-CMakeFiles/compiled_second.dir/clean:
-	$(MAKE) -f CMakeFiles/compiled_second.dir/build.make CMakeFiles/compiled_second.dir/clean
-.PHONY : CMakeFiles/compiled_second.dir/clean
+CMakeFiles/second.dir/clean:
+	$(MAKE) -f CMakeFiles/second.dir/build.make CMakeFiles/second.dir/clean
+.PHONY : CMakeFiles/second.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/compiled_second.dir/clean
+clean: CMakeFiles/second.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/compiled_seventh.dir
+# Target rules for target CMakeFiles/seventh.dir
 
 # All Build rule for target.
-CMakeFiles/compiled_seventh.dir/all:
-	$(MAKE) -f CMakeFiles/compiled_seventh.dir/build.make CMakeFiles/compiled_seventh.dir/depend
-	$(MAKE) -f CMakeFiles/compiled_seventh.dir/build.make CMakeFiles/compiled_seventh.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles  6
-	@echo "Built target compiled_seventh"
-.PHONY : CMakeFiles/compiled_seventh.dir/all
+CMakeFiles/seventh.dir/all:
+	$(MAKE) -f CMakeFiles/seventh.dir/build.make CMakeFiles/seventh.dir/depend
+	$(MAKE) -f CMakeFiles/seventh.dir/build.make CMakeFiles/seventh.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles  6
+	@echo "Built target seventh"
+.PHONY : CMakeFiles/seventh.dir/all
 
 # Include target in all.
-all: CMakeFiles/compiled_seventh.dir/all
+all: CMakeFiles/seventh.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/compiled_seventh.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/compiled_seventh.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles 0
-.PHONY : CMakeFiles/compiled_seventh.dir/rule
+CMakeFiles/seventh.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/seventh.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles 0
+.PHONY : CMakeFiles/seventh.dir/rule
 
 # Convenience name for target.
-compiled_seventh: CMakeFiles/compiled_seventh.dir/rule
-.PHONY : compiled_seventh
+seventh: CMakeFiles/seventh.dir/rule
+.PHONY : seventh
 
 # clean rule for target.
-CMakeFiles/compiled_seventh.dir/clean:
-	$(MAKE) -f CMakeFiles/compiled_seventh.dir/build.make CMakeFiles/compiled_seventh.dir/clean
-.PHONY : CMakeFiles/compiled_seventh.dir/clean
+CMakeFiles/seventh.dir/clean:
+	$(MAKE) -f CMakeFiles/seventh.dir/build.make CMakeFiles/seventh.dir/clean
+.PHONY : CMakeFiles/seventh.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/compiled_seventh.dir/clean
+clean: CMakeFiles/seventh.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/compiled_sixth.dir
+# Target rules for target CMakeFiles/sixth.dir
 
 # All Build rule for target.
-CMakeFiles/compiled_sixth.dir/all:
-	$(MAKE) -f CMakeFiles/compiled_sixth.dir/build.make CMakeFiles/compiled_sixth.dir/depend
-	$(MAKE) -f CMakeFiles/compiled_sixth.dir/build.make CMakeFiles/compiled_sixth.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles  7
-	@echo "Built target compiled_sixth"
-.PHONY : CMakeFiles/compiled_sixth.dir/all
+CMakeFiles/sixth.dir/all:
+	$(MAKE) -f CMakeFiles/sixth.dir/build.make CMakeFiles/sixth.dir/depend
+	$(MAKE) -f CMakeFiles/sixth.dir/build.make CMakeFiles/sixth.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles  7
+	@echo "Built target sixth"
+.PHONY : CMakeFiles/sixth.dir/all
 
 # Include target in all.
-all: CMakeFiles/compiled_sixth.dir/all
+all: CMakeFiles/sixth.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/compiled_sixth.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/compiled_sixth.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles 0
-.PHONY : CMakeFiles/compiled_sixth.dir/rule
+CMakeFiles/sixth.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sixth.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles 0
+.PHONY : CMakeFiles/sixth.dir/rule
 
 # Convenience name for target.
-compiled_sixth: CMakeFiles/compiled_sixth.dir/rule
-.PHONY : compiled_sixth
+sixth: CMakeFiles/sixth.dir/rule
+.PHONY : sixth
 
 # clean rule for target.
-CMakeFiles/compiled_sixth.dir/clean:
-	$(MAKE) -f CMakeFiles/compiled_sixth.dir/build.make CMakeFiles/compiled_sixth.dir/clean
-.PHONY : CMakeFiles/compiled_sixth.dir/clean
+CMakeFiles/sixth.dir/clean:
+	$(MAKE) -f CMakeFiles/sixth.dir/build.make CMakeFiles/sixth.dir/clean
+.PHONY : CMakeFiles/sixth.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/compiled_sixth.dir/clean
+clean: CMakeFiles/sixth.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/compiled_third.dir
+# Target rules for target CMakeFiles/third.dir
 
 # All Build rule for target.
-CMakeFiles/compiled_third.dir/all:
-	$(MAKE) -f CMakeFiles/compiled_third.dir/build.make CMakeFiles/compiled_third.dir/depend
-	$(MAKE) -f CMakeFiles/compiled_third.dir/build.make CMakeFiles/compiled_third.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles  8
-	@echo "Built target compiled_third"
-.PHONY : CMakeFiles/compiled_third.dir/all
+CMakeFiles/third.dir/all:
+	$(MAKE) -f CMakeFiles/third.dir/build.make CMakeFiles/third.dir/depend
+	$(MAKE) -f CMakeFiles/third.dir/build.make CMakeFiles/third.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles  8
+	@echo "Built target third"
+.PHONY : CMakeFiles/third.dir/all
 
 # Include target in all.
-all: CMakeFiles/compiled_third.dir/all
+all: CMakeFiles/third.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/compiled_third.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/compiled_third.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/image_processing_tutorial/build/CMakeFiles 0
-.PHONY : CMakeFiles/compiled_third.dir/rule
+CMakeFiles/third.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/third.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shashwat/OpenCVPrac/ip_winter_work/build/CMakeFiles 0
+.PHONY : CMakeFiles/third.dir/rule
 
 # Convenience name for target.
-compiled_third: CMakeFiles/compiled_third.dir/rule
-.PHONY : compiled_third
+third: CMakeFiles/third.dir/rule
+.PHONY : third
 
 # clean rule for target.
-CMakeFiles/compiled_third.dir/clean:
-	$(MAKE) -f CMakeFiles/compiled_third.dir/build.make CMakeFiles/compiled_third.dir/clean
-.PHONY : CMakeFiles/compiled_third.dir/clean
+CMakeFiles/third.dir/clean:
+	$(MAKE) -f CMakeFiles/third.dir/build.make CMakeFiles/third.dir/clean
+.PHONY : CMakeFiles/third.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/compiled_third.dir/clean
+clean: CMakeFiles/third.dir/clean
 .PHONY : clean
 
 #=============================================================================
